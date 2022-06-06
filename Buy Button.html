@@ -34,7 +34,7 @@
 </script> 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js">
 </script>
-<body bgcolor="black">
+<body>
     <h1 style=
     "align-items:center; 
     justify-content: center; 
@@ -54,11 +54,18 @@
         </p>
 
     </h1>
-    <nav>
-    <div id="bar" style="margin: top 30px;"></div>
-    <script>
-        $(document).ready(function(){$("#bar").load("nav.html")});
-        </script>
+    <div id="dropdown">
+      <button onclick="myFunction()" class="butt" type="menu">Explore</button>
+     </div>
+    
+        <nav>
+          <div id="List" Class="drpl">
+            <a href="./index.html" target="_self">Home</a>
+            <a href="./Buy Button.html" target="_self"  id="evs" >Events</a>
+            <a href="./About Us.html" target="_self">About Us</a>
+            <a href="./Contact Us.html" target="_self">Contact Us</a>
+          
+          </div>
         </nav>
         
     <div  style="
